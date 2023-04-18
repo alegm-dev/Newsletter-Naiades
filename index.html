@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        /* Estilos generales */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+        body {
+            margin: 0;
+            background-color: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        table {
+            border-spacing: 0;
+            width: 100%
+        }
+        
+        td {
+            padding: 0;
+        }
+        
+        img {
+            border: 0;
+        }
+        /* Estilos especificos*/
+        
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #ccc;
+            padding: 60px 0;
+        }
+        
+        .main {
+            background-color: #fff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .banner-image {
+            background-image: url('img/banner.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+        }
+        
+        .banner-image .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .two-columns {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .two-columns .column {
+            width: 100%;
+            max-width: 280px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .two-columns .content {
+            width: 100%;
+            font-size: 15px;
+            line-height: 1;
+            padding: 20px 10px;
+        }
+        
+        .bg-video {
+            background-image: url('img/background-video.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <center class="wrapper">
+        <table class="main" border="0" cellspacing="0" cellpadding="0">
+
+            <!--BANNER SECTION -->
+            <tr>
+                <td>
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="banner-image">
+                                <table class="column" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td style="padding: 10px 10px ;">
+                                            <img src=" img/logo.png " alt="Logo" title="Logo" width="100">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 80px 10px 20px;">
+                                            <p style="margin: 0;color: #fff; padding: 2px 12px; border-radius: 2px; background-color: #23135f; display: inline-block; font-size: 12px; ">LUNCH</p>
+                                            <h1 style="margin: 0;color: #fff; font-size: 40px; font-weight: 600; letter-spacing: 2px;">Lorem ipsum dolor sit amet</h1>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- MAIN SECTION -->
+            <tr>
+                <td>
+                    <table class="two-columns" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <!-- TEXTO COLUMN -->
+                            <td class="column">
+                                <table class="content" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td style="text-align: left; font-size: 11px; color: #333; font-family: Roboto, sans-serif; line-height: 1.2;">
+                                            <p> <strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</strong> Natus, atque ipsum? Quis cum excepturi neque labore. Consequatur <br><br> hic! Sapiente quisquam, quo aspernatur, corrupti vel repudiandae
+                                                doloremque quibusdam rem consequuntur exercitationem ad <br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <strong>Quidem minima possimus magni distinctio mollitia similique
+                                                            sequi quisquam accusamus voluptatibus nisi.</strong> </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- CALENDARIO COLUMN -->
+                            <td class="column">
+                                <table class="content" border="0" cellspacing="0" cellpadding="0" align="center" style="background-color: #f4f4f4;">
+                                    <tr>
+                                        <td style="color: #23135f; font-family: Roboto, sans-serif;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-calendar2-week" viewBox="0 0 16 16">
+                                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+                                                    <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                                    </svg>
+                                            <h4 style="line-height: 1.5;">March 3th | 12:00p PM <br> TBD</h4>
+                                            <a href="#" style="padding: 4px 10px; background-color: #23135f; border-radius: 2px; color: #fff; text-decoration: none;">confirmar asistencia</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- VIDEO SECTION -->
+            <tr>
+                <td>
+                    <table class="two-columns bg-video" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <!-- VIDEO COLUMN -->
+                            <td class="column">
+                                <table class="content" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td>
+                                            <video src="video/videohero.mp4" width="250" height="150" controls style="border-radius: 10px;"></video>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- TEXTO VIDEO COLUMN -->
+                            <td class="column">
+                                <table class="content" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tr>
+                                        <td style="text-align: left; font-size: 12px; color: #fff; font-family: Roboto, sans-serif; line-height: 1.2;">
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Natus, atque ipsum? Quis cum excepturi neque labore. Consequatur <br><br> hic! Sapiente quisquam, quo aspernatur, corrupti vel repudiandae doloremque
+                                                quibusdam rem consequuntur exercitationem ad </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- SPEAKER SECTION -->
+            <tr>
+                <td style="background-color: #fff;">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td style="text-align: center; padding:12px; font-size: 24px;">
+                                <p style="color:#000">Speaker: <strong style=" color: #23135f;"> Lorem Ipsum</strong> -
+                                    <span style=" color: #23135f;"> Dolor sit amet </span>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- FOOTER SECTION -->
+            <tr>
+                <td style="background-color: #7c55b5; padding: 20px;">
+                    <table class="two-columns" border="0" cellspacing="0" cellpadding="0">
+                        <tr class="column" align="left">
+                            <td style="text-align: left; color:#fff; font-size: 12px; line-height: 0.5;">
+                                <p>MORE INFORMATION:</p>
+                                <p> Lorem Ipsum | Vice President </p>
+                                <a href="#" style="text-decoration: none; font-weight: 700; color: #23135f;">consectetur@loremipsum.com</a>
+                            </td>
+                        </tr>
+                        <tr class="column" align="right">
+                            <td style="text-align:right; line-height: 1.2;">
+                                <img src="img/logo.png" alt="" width="80">
+                                <p style="font-size: 10px; color: #fff;">Generic 2020. <br> All rights reserved.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
